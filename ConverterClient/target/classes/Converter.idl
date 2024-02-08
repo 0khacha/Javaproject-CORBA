@@ -1,0 +1,5 @@
+module Converter {
+    interface Conversion {
+        string convertNumber(in string number, in short sourceBase, in short targetBase);
+    };
+};
